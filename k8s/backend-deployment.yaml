@@ -20,19 +20,8 @@ spec:
             - containerPort: 8080
           env:
             - name: OPENAI_API_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: backend-secrets
-                  key: OPENAI_API_KEY
+              value: # OPEN AI KEY 
             - name: GOOGLE_API_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: backend-secrets
-                  key: GOOGLE_API_KEY
+              value: # GOOGLE API KEY
             - name: PORT
               value: "8080"
-            - name: FLAG
-              valueFrom:
-                secretKeyRef:
-                  name: backend-secrets
-                  key: FLAG

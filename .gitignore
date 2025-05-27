@@ -6,3 +6,5 @@ k8s/backend-secrets.yaml
 
 API/.env
 client/.env.local
+
+mySecrets.txt
