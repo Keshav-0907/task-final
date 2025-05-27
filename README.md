@@ -1,8 +1,3 @@
-
-# Financial Management Application
-
-A modern financial management application built with Next.js and Node.js.
-
 ## Project Structure
 
 The project consists of two main parts:
@@ -87,6 +82,16 @@ The application will be available at:
 The project includes Kubernetes configurations in the `k8s/` directory. To deploy the application to Kubernetes:
 
 1. Make sure you have kubectl and docker installed and running:
+
+2. Before deploying, create two Kubernetes Secret files to store environment variables securely:
+ 
+  `k8s/backend-secrets.yaml` and
+  `k8s/frontend-secrets.yaml`
+
+  You can use the provided sample files as a reference:
+
+  `sample-backend-secrets.yaml` and
+  `sample-frontend-secrets.yaml`
 
 
 2. Deploy the application using this single script:
