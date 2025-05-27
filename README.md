@@ -83,15 +83,7 @@ The project includes Kubernetes configurations in the `k8s/` directory. To deplo
 
 1. Make sure you have kubectl and docker installed and running:
 
-2. Before deploying, create two Kubernetes Secret files to store environment variables securely:
- 
-  `k8s/backend-secrets.yaml` and
-  `k8s/frontend-secrets.yaml`
-
-  You can use the provided sample files as a reference:
-
-  `sample-backend-secrets.yaml` and
-  `sample-frontend-secrets.yaml`
+2. Before deploying, add the required keys in `frontend-deployment.yaml` and `backend-deployment.yaml`
 
 
 2. Deploy the application using this single script:
