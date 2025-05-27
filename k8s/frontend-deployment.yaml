@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: frontend
+          image: frontend:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NEXT_PUBLIC_MAPBOX_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: frontend-secrets
+                  key: NEXT_PUBLIC_MAPBOX_TOKEN
+            - name: FLAG
+              valueFrom:
+                secretKeyRef:
+                  name: frontend-secrets
+                  key: FLAG
+          

@@ -1,0 +1,269 @@
+[
+    {
+        "pinCode": 560034,
+        "avgOrderValue": 430,
+        "aovChange": 4.1,
+        "appOpens": 563,
+        "appOpensHistory": [
+            {
+                "date": "2025-05-10",
+                "opens": 350
+            },
+            {
+                "date": "2025-05-11",
+                "opens": 558
+            },
+            {
+                "date": "2025-05-12",
+                "opens": 200
+            },
+            {
+                "date": "2025-05-13",
+                "opens": 150
+            },
+            {
+                "date": "2025-05-14",
+                "opens": 400
+            }
+        ],
+        "uniqueCustomers": 87,
+        "avgDeliveryTime": 14,
+        "deliveryDelay": 3,
+        "dailyCapacity": 100,
+        "dailyOrders": [
+            {
+                "date": "2025-05-10",
+                "orders": 20
+            },
+            {
+                "date": "2025-05-11",
+                "orders": 50
+            },
+            {
+                "date": "2025-05-12",
+                "orders": 60
+            },
+            {
+                "date": "2025-05-13",
+                "orders": 30
+            },
+            {
+                "date": "2025-05-14",
+                "orders": 70
+            }
+        ]
+    },
+    {
+        "pinCode": 560038,
+        "avgOrderValue": 390,
+        "aovChange": -2.6,
+        "appOpens": 897,
+        "appOpensHistory": [
+            {
+                "date": "2025-05-10",
+                "opens": 560
+            },
+            {
+                "date": "2025-05-11",
+                "opens": 558
+            },
+            {
+                "date": "2025-05-12",
+                "opens": 565
+            },
+            {
+                "date": "2025-05-13",
+                "opens": 561
+            },
+            {
+                "date": "2025-05-14",
+                "opens": 559
+            }
+        ],
+        "uniqueCustomers": 65,
+        "avgDeliveryTime": 16,
+        "deliveryDelay": 2,
+        "dailyCapacity": 120,
+        "dailyOrders": [
+            {
+                "date": "2025-05-10",
+                "orders": 35
+            },
+            {
+                "date": "2025-05-11",
+                "orders": 45
+            },
+            {
+                "date": "2025-05-12",
+                "orders": 55
+            },
+            {
+                "date": "2025-05-13",
+                "orders": 60
+            },
+            {
+                "date": "2025-05-14",
+                "orders": 50
+            }
+        ]
+    },
+    {
+        "pinCode": 560041,
+        "avgOrderValue": 410,
+        "aovChange": 1.9,
+        "appOpens": 504,
+        "appOpensHistory": [
+            {
+                "date": "2025-05-10",
+                "opens": 560
+            },
+            {
+                "date": "2025-05-11",
+                "opens": 558
+            },
+            {
+                "date": "2025-05-12",
+                "opens": 565
+            },
+            {
+                "date": "2025-05-13",
+                "opens": 561
+            },
+            {
+                "date": "2025-05-14",
+                "opens": 559
+            }
+        ],
+        "dailyCapacity": 110,
+        "dailyOrders": [
+            {
+                "date": "2025-05-10",
+                "orders": 25
+            },
+            {
+                "date": "2025-05-11",
+                "orders": 35
+            },
+            {
+                "date": "2025-05-12",
+                "orders": 65
+            },
+            {
+                "date": "2025-05-13",
+                "orders": 55
+            },
+            {
+                "date": "2025-05-14",
+                "orders": 45
+            }
+        ]
+    },
+    {
+        "pinCode": 560064,
+        "avgOrderValue": 365,
+        "aovChange": -1.4,
+        "appOpens": 662,
+        "appOpensHistory": [
+            {
+                "date": "2025-05-10",
+                "opens": 560
+            },
+            {
+                "date": "2025-05-11",
+                "opens": 558
+            },
+            {
+                "date": "2025-05-12",
+                "opens": 565
+            },
+            {
+                "date": "2025-05-13",
+                "opens": 561
+            },
+            {
+                "date": "2025-05-14",
+                "opens": 559
+            }
+        ],
+        "uniqueCustomers": 55,
+        "avgDeliveryTime": 20,
+        "deliveryDelay": 5,
+        "dailyCapacity": 80,
+        "dailyOrders": [
+            {
+                "date": "2025-05-10",
+                "orders": 65
+            },
+            {
+                "date": "2025-05-11",
+                "orders": 40
+            },
+            {
+                "date": "2025-05-12",
+                "orders": 30
+            },
+            {
+                "date": "2025-05-13",
+                "orders": 20
+            },
+            {
+                "date": "2025-05-14",
+                "orders": 56
+            }
+        ]
+    },
+    {
+        "pinCode": 560010,
+        "avgOrderValue": 420,
+        "aovChange": 2.8,
+        "appOpens": 722,
+        "appOpensHistory": [
+            {
+                "date": "2025-05-10",
+                "opens": 560
+            },
+            {
+                "date": "2025-05-11",
+                "opens": 558
+            },
+            {
+                "date": "2025-05-12",
+                "opens": 565
+            },
+            {
+                "date": "2025-05-13",
+                "opens": 561
+            },
+            {
+                "date": "2025-05-14",
+                "opens": 559
+            }
+        ],
+        "uniqueCustomers": 72,
+        "avgDeliveryTime": 15,
+        "deliveryDelay": 2,
+        "dailyCapacity": 90,
+        "dailyOrders": [
+            {
+                "date": "2025-05-10",
+                "orders": 50
+            },
+            {
+                "date": "2025-05-11",
+                "orders": 30
+            },
+            {
+                "date": "2025-05-12",
+                "orders": 45
+            },
+            {
+                "date": "2025-05-13",
+                "orders": 70
+            },
+            {
+                "date": "2025-05-14",
+                "orders": 60
+            }
+        ]
+    }
+]
