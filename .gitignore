@@ -1,8 +1,7 @@
 API/node_modules
 client/node_modules
 
-k8s/frontend-secrets.yaml
-k8s/backend-secrets.yaml
+k8s/secrets.yaml
 
 API/.env
 client/.env.local

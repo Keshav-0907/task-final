@@ -20,5 +20,8 @@ spec:
             - containerPort: 3000
           env:
             - name: NEXT_PUBLIC_MAPBOX_TOKEN
-              value: #MAPBOX API KEY
+              valueFrom:
+                secretKeyRef:
+                  name: app-secrets
+                  key: mapbox-token
           
